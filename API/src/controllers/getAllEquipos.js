@@ -1,11 +1,11 @@
-require('dotenv').config();
+require("dotenv").config();
 const axios = require("axios");
-const {Equipo, Equipos} = require('../db');
+const { Equipo, Equipos } = require("../db");
 
 const getAllEquipos = async (req, res) => {
   let allGamesAPI = [];
   let allGamesDB = [];
- // let URL = `https://api.rawg.io/api/games?key=${process.env.API_KEY}`;
+  // let URL = `https://api.rawg.io/api/games?key=${process.env.API_KEY}`;
   /*
   try {
     while (allGamesAPI.length < 100 && URL) {
