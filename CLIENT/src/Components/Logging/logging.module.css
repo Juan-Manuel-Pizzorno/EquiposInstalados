@@ -9,6 +9,7 @@ body {
   justify-content: center; /* Centra el contenido */
   align-items: center;
   text-align: center;
+  
   }
 .boton {
     background-color: #0598DD;
@@ -16,6 +17,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    
   }
 
   .login{
@@ -27,6 +29,7 @@ body {
     padding: 20px 30px;
     border-radius: 15px;
     transition: border-radius 0.3s ease; /* Transición suave */
+    
   }
 
 .laQuimica{
@@ -44,6 +47,9 @@ body {
     padding: 11px 10px;
     font-size: 14px;
     font-weight: bold;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  
+    
   }
 
   .button{
